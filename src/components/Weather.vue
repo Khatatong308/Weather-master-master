@@ -1,7 +1,7 @@
 <script>
 import axios from 'axios';
 import DaysWeather from './DaysWeather.vue';
-export default (await import('vue')).defineComponent({
+export default {
     name: 'myWeather',
     components: {
         DaysWeather,
@@ -35,7 +35,7 @@ export default (await import('vue')).defineComponent({
         console.log(response);
         console.log(this.city);
     }
-})
+}
   </script>
 
 <template>

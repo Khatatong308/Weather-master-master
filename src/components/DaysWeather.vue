@@ -1,9 +1,9 @@
 <script>
-export default (await import('vue')).defineComponent({
+export default {
     name: 'myWeather',
     components: {
     },
-})
+}
   </script>
 
 <template>
