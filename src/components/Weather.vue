@@ -5,7 +5,7 @@ export default (await import('vue')).defineComponent({
     name: 'myWeather',
     components: {
         DaysWeather,
-        axios
+        
     },
     props:{
         city: String,
